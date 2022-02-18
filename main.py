@@ -39,7 +39,7 @@ if not client.is_user_authorized():
 
 
 @dp.message_handler(chat_type=[ChatType.CHANNEL, ChatType.SUPERGROUP, ChatType.GROUP])
-async def ignore_groups(message: types.Message,):
+async def ignore_groups(message: types.Message, ):
     # Ignore non-Private chats
     pass
 
@@ -131,7 +131,8 @@ async def home_query(query: types.CallbackQuery):
     # Remove inline keyboard with user's groups
 
     await query.answer('🏠 Home')
-    await bot.edit_message_text(chat_id=query.message.chat.id, message_id=query.message.message_id, text='Returned Home 🏠')
+    await bot.edit_message_text(chat_id=query.message.chat.id, message_id=query.message.message_id,
+                                text='Returned Home 🏠')
 
 
 @dp.callback_query_handler()
@@ -155,31 +156,26 @@ async def send_message():
 
     while True:
         groups_saved = json.load(open('groups.json', 'r'))
-
+        delay, message = json.load(open('db.json', 'r')).values()
         if groups_saved:  # Check if groups list is not empty
             for group in groups_saved:
                 groups_saved_checker = json.load(open('groups.json', 'r'))
-                delay, message = json.load(open('db.json', 'r')).values()
 
                 if group in groups_saved_checker and delay and message:  # Double check if data is given
                     try:
                         await client.send_message(group, message, parse_mode='html')
                     except ChannelPrivateError:
-                        #  Remove group from the group list
-                        #  Coz user is no longer a member of the group
-
                         funcs.delete_left_group(group)
                     except Exception:
                         logger.exception(f"Couldn't send message to {group}")
-                    await asyncio.sleep(int(delay))
+                    await asyncio.sleep(int(1))
                 else:
                     await asyncio.sleep(20)
         else:
             await asyncio.sleep(20)
+        await asyncio.sleep(int(delay))
 
 
 if __name__ == '__main__':
-    print('All rights reserved, created by @demploy')
-    print('The bot is working...')
     asyncio.get_event_loop().create_task(send_message())
     executor.start_polling(dp, skip_updates=True)

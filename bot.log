@@ -18,3 +18,1946 @@ WARNING: 2022-02-17 04:27:07,961: Updates were skipped successfully.
 INFO: 2022-02-17 04:27:07,961: Start polling. 
 INFO: 2022-02-17 04:39:11,124: Stop polling... 
 WARNING: 2022-02-17 04:39:11,125: Goodbye! 
+INFO: 2022-02-18 19:33:08,956: Connecting to 149.154.167.51:443/TcpFull... 
+INFO: 2022-02-18 19:33:10,366: Connection to 149.154.167.51:443/TcpFull complete! 
+INFO: 2022-02-18 19:33:17,181: Bot: test [@test_shop_bot_example_bot] 
+WARNING: 2022-02-18 19:33:18,390: Updates were skipped successfully. 
+INFO: 2022-02-18 19:33:18,391: Start polling. 
+ERROR: 2022-02-18 19:34:33,335: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.SlowModeWaitError: A wait of 3585 seconds is required before sending another message in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:34:48,270: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.SlowModeWaitError: A wait of 3570 seconds is required before sending another message in this chat (caused by SendMessageRequest)
+INFO: 2022-02-18 19:37:40,008: Stop polling... 
+WARNING: 2022-02-18 19:37:40,008: Goodbye! 
+INFO: 2022-02-18 19:37:40,801: Connecting to 149.154.167.51:443/TcpFull... 
+INFO: 2022-02-18 19:37:40,941: Connection to 149.154.167.51:443/TcpFull complete! 
+ERROR: 2022-02-18 19:37:41,858: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+INFO: 2022-02-18 19:37:41,988: Bot: test [@test_shop_bot_example_bot] 
+WARNING: 2022-02-18 19:37:43,182: Updates were skipped successfully. 
+INFO: 2022-02-18 19:37:43,183: Start polling. 
+ERROR: 2022-02-18 19:37:55,468: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:38:09,038: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:38:22,667: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:39:26,288: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:40:29,924: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:41:33,557: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:42:37,056: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:43:40,589: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:44:44,281: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+INFO: 2022-02-18 19:45:01,727: Stop polling... 
+WARNING: 2022-02-18 19:45:01,728: Goodbye! 
+INFO: 2022-02-18 19:50:55,393: Connecting to 149.154.167.51:443/TcpFull... 
+INFO: 2022-02-18 19:50:55,528: Connection to 149.154.167.51:443/TcpFull complete! 
+INFO: 2022-02-18 19:50:56,492: Bot: test [@test_shop_bot_example_bot] 
+ERROR: 2022-02-18 19:50:56,512: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+WARNING: 2022-02-18 19:50:57,730: Updates were skipped successfully. 
+INFO: 2022-02-18 19:50:57,730: Start polling. 
+INFO: 2022-02-18 19:51:27,591: Stop polling... 
+WARNING: 2022-02-18 19:51:27,591: Goodbye! 
+INFO: 2022-02-18 19:51:28,330: Connecting to 149.154.167.51:443/TcpFull... 
+INFO: 2022-02-18 19:51:28,439: Connection to 149.154.167.51:443/TcpFull complete! 
+ERROR: 2022-02-18 19:51:29,058: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+INFO: 2022-02-18 19:51:29,287: Bot: test [@test_shop_bot_example_bot] 
+WARNING: 2022-02-18 19:51:30,595: Updates were skipped successfully. 
+INFO: 2022-02-18 19:51:30,595: Start polling. 
+ERROR: 2022-02-18 19:51:52,679: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:52:16,234: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:52:39,881: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:53:03,524: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:53:27,000: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:53:50,683: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:54:14,344: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:54:37,816: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:55:01,321: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:55:24,856: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:55:48,340: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:56:11,830: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:56:35,340: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:56:58,823: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:57:22,363: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:57:46,109: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:58:09,544: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:58:33,083: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:58:56,686: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:59:20,194: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 19:59:43,642: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:00:07,305: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:00:31,450: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:00:58,973: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:01:28,606: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:01:53,179: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:02:21,685: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:02:54,648: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:03:18,382: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:03:41,973: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:04:05,511: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:04:29,097: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:04:52,602: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:05:16,154: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:05:39,759: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:06:03,274: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:06:27,092: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:06:50,606: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:07:14,173: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:07:37,700: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:08:01,277: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:08:25,028: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:08:48,507: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:09:12,083: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:09:35,581: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:09:59,204: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:10:22,759: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:10:46,403: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:11:10,158: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:11:33,738: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:11:57,355: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:12:21,025: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:12:44,701: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:13:08,248: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:13:31,961: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:13:55,462: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:14:18,952: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:14:42,531: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:15:06,200: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:15:29,733: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:15:53,274: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:16:16,807: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:16:40,302: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:17:03,742: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:17:27,378: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:17:51,051: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:18:14,544: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:18:38,239: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:19:01,704: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:19:25,291: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:19:48,801: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:20:12,311: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:20:35,849: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:20:59,333: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:21:22,815: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:21:46,398: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:22:09,964: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:22:33,472: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:22:57,143: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:23:20,573: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:23:44,174: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:24:07,667: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:24:31,185: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:24:54,793: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:25:18,241: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:25:41,778: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:26:05,290: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:26:28,970: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:26:52,548: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:27:16,105: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:27:39,796: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:28:03,336: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:28:26,950: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:28:50,601: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:29:14,268: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:29:37,762: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:30:01,523: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:30:25,169: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:30:48,774: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:31:12,623: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:31:36,408: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:31:59,865: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:32:23,371: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:32:46,918: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:33:10,617: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:33:34,344: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:33:57,937: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:34:21,544: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:34:45,040: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:35:08,651: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:35:32,161: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:35:55,735: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:36:19,494: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:36:42,959: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:37:06,485: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:37:30,103: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:37:53,591: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:38:17,060: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:38:40,753: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:39:04,281: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:39:27,942: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:39:51,500: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:40:15,171: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:40:38,813: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:41:02,466: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:41:26,192: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:41:49,680: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:42:13,265: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:42:36,784: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:43:00,353: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:43:23,983: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:43:47,584: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:44:11,074: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:44:34,603: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:44:58,190: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:45:21,679: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:45:45,327: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:46:08,982: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:46:32,527: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+ERROR: 2022-02-18 20:46:56,235: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 872, in send_message
+    result = await self(request)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatWriteForbiddenError: You can't write in this chat (caused by SendMessageRequest)
+INFO: 2022-02-18 20:47:00,620: Stop polling... 
+WARNING: 2022-02-18 20:47:00,620: Goodbye! 
+INFO: 2022-02-18 20:49:33,682: Connecting to 149.154.167.51:443/TcpFull... 
+INFO: 2022-02-18 20:49:35,176: Connection to 149.154.167.51:443/TcpFull complete! 
+INFO: 2022-02-18 20:49:35,675: Phone migrated to 5 
+INFO: 2022-02-18 20:49:35,675: Reconnecting to new data center 5 
+INFO: 2022-02-18 20:49:35,799: Disconnecting from 149.154.167.51:443/TcpFull... 
+INFO: 2022-02-18 20:49:35,799: Disconnection from 149.154.167.51:443/TcpFull complete! 
+INFO: 2022-02-18 20:49:35,800: Connecting to 91.108.56.175:443/TcpFull... 
+INFO: 2022-02-18 20:49:37,742: Connection to 91.108.56.175:443/TcpFull complete! 
+INFO: 2022-02-18 20:50:00,533: Connecting to 91.108.56.175:443/TcpFull... 
+INFO: 2022-02-18 20:50:00,863: Connection to 91.108.56.175:443/TcpFull complete! 
+WARNING: 2022-02-18 20:50:02,220: Telegram is having internal issues AuthRestartError: Restart the authorization process (caused by SendCodeRequest) 
+INFO: 2022-02-18 20:51:47,512: Connecting to 91.108.56.175:443/TcpFull... 
+INFO: 2022-02-18 20:51:47,838: Connection to 91.108.56.175:443/TcpFull complete! 
+WARNING: 2022-02-18 20:51:49,002: Telegram is having internal issues AuthRestartError: Restart the authorization process (caused by SendCodeRequest) 
+INFO: 2022-02-18 20:55:39,436: Connecting to 91.108.56.175:443/TcpFull... 
+INFO: 2022-02-18 20:55:39,751: Connection to 91.108.56.175:443/TcpFull complete! 
+ERROR: 2022-02-18 20:55:40,888: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 810, in send_message
+    entity = await self.get_input_entity(entity)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=1298834621) (PeerUser). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.
+ERROR: 2022-02-18 20:55:42,160: Couldn't send message to 665463163 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 810, in send_message
+    entity = await self.get_input_entity(entity)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=665463163) (PeerUser). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.
+ERROR: 2022-02-18 20:55:43,440: Couldn't send message to 713741478 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 810, in send_message
+    entity = await self.get_input_entity(entity)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=713741478) (PeerUser). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.
+INFO: 2022-02-18 20:55:43,740: Bot: spammer2 [@spammer_thor2_bot] 
+WARNING: 2022-02-18 20:55:44,982: Updates were skipped successfully. 
+INFO: 2022-02-18 20:55:44,983: Start polling. 
+ERROR: 2022-02-18 20:56:04,948: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 810, in send_message
+    entity = await self.get_input_entity(entity)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=1298834621) (PeerUser). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.
+ERROR: 2022-02-18 20:56:06,212: Couldn't send message to 665463163 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 810, in send_message
+    entity = await self.get_input_entity(entity)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=665463163) (PeerUser). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.
+ERROR: 2022-02-18 20:56:07,480: Couldn't send message to 713741478 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 810, in send_message
+    entity = await self.get_input_entity(entity)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=713741478) (PeerUser). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.
+INFO: 2022-02-18 20:56:13,647: Stop polling... 
+WARNING: 2022-02-18 20:56:13,648: Goodbye! 
+INFO: 2022-02-18 20:56:14,508: Connecting to 91.108.56.175:443/TcpFull... 
+INFO: 2022-02-18 20:56:14,781: Connection to 91.108.56.175:443/TcpFull complete! 
+ERROR: 2022-02-18 20:56:15,916: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 810, in send_message
+    entity = await self.get_input_entity(entity)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=1298834621) (PeerUser). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.
+INFO: 2022-02-18 20:56:16,054: Bot: spammer2 [@spammer_thor2_bot] 
+ERROR: 2022-02-18 20:56:17,203: Couldn't send message to 665463163 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 810, in send_message
+    entity = await self.get_input_entity(entity)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=665463163) (PeerUser). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.
+WARNING: 2022-02-18 20:56:17,308: Updates were skipped successfully. 
+INFO: 2022-02-18 20:56:17,309: Start polling. 
+ERROR: 2022-02-18 20:56:18,489: Couldn't send message to 713741478 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 810, in send_message
+    entity = await self.get_input_entity(entity)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=713741478) (PeerUser). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.
+INFO: 2022-02-18 20:56:38,550: Stop polling... 
+WARNING: 2022-02-18 20:56:38,551: Goodbye! 
+INFO: 2022-02-18 20:56:44,738: Connecting to 149.154.167.51:443/TcpFull... 
+INFO: 2022-02-18 20:56:45,953: Connection to 149.154.167.51:443/TcpFull complete! 
+INFO: 2022-02-18 20:56:46,497: Phone migrated to 5 
+INFO: 2022-02-18 20:56:46,498: Reconnecting to new data center 5 
+INFO: 2022-02-18 20:56:46,644: Disconnecting from 149.154.167.51:443/TcpFull... 
+INFO: 2022-02-18 20:56:46,646: Disconnection from 149.154.167.51:443/TcpFull complete! 
+INFO: 2022-02-18 20:56:46,646: Connecting to 91.108.56.175:443/TcpFull... 
+INFO: 2022-02-18 20:56:48,543: Connection to 91.108.56.175:443/TcpFull complete! 
+INFO: 2022-02-18 20:57:18,343: Bot: spammer2 [@spammer_thor2_bot] 
+ERROR: 2022-02-18 20:57:18,499: Couldn't send message to 1298834621 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 810, in send_message
+    entity = await self.get_input_entity(entity)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=1298834621) (PeerUser). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.
+WARNING: 2022-02-18 20:57:19,756: Updates were skipped successfully. 
+INFO: 2022-02-18 20:57:19,757: Start polling. 
+ERROR: 2022-02-18 20:57:19,758: Couldn't send message to 665463163 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 810, in send_message
+    entity = await self.get_input_entity(entity)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=665463163) (PeerUser). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.
+ERROR: 2022-02-18 20:57:21,023: Couldn't send message to 713741478 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 810, in send_message
+    entity = await self.get_input_entity(entity)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=713741478) (PeerUser). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.
+ERROR: 2022-02-18 20:57:43,833: Couldn't send message to 665463163 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 810, in send_message
+    entity = await self.get_input_entity(entity)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=665463163) (PeerUser). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.
+ERROR: 2022-02-18 20:57:45,200: Couldn't send message to 713741478 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 810, in send_message
+    entity = await self.get_input_entity(entity)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=713741478) (PeerUser). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.
+ERROR: 2022-02-18 20:58:07,883: Couldn't send message to 665463163 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 810, in send_message
+    entity = await self.get_input_entity(entity)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=665463163) (PeerUser). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.
+ERROR: 2022-02-18 20:58:09,138: Couldn't send message to 713741478 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 810, in send_message
+    entity = await self.get_input_entity(entity)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=713741478) (PeerUser). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.
+ERROR: 2022-02-18 20:58:32,293: Couldn't send message to 665463163 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 810, in send_message
+    entity = await self.get_input_entity(entity)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=665463163) (PeerUser). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.
+ERROR: 2022-02-18 20:58:33,560: Couldn't send message to 713741478 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 810, in send_message
+    entity = await self.get_input_entity(entity)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=713741478) (PeerUser). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.
+ERROR: 2022-02-18 20:58:56,178: Couldn't send message to 665463163 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 810, in send_message
+    entity = await self.get_input_entity(entity)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=665463163) (PeerUser). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.
+ERROR: 2022-02-18 20:58:57,435: Couldn't send message to 713741478 
+Traceback (most recent call last):
+  File "/Users/daulet/Downloads/bot/Source code/main.py", line 166, in send_message
+    await client.send_message(group, message, parse_mode='html')
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/messages.py", line 810, in send_message
+    entity = await self.get_input_entity(entity)
+  File "/Users/daulet/Documents/Source code/lib/python3.9/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=713741478) (PeerUser). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.
+INFO: 2022-02-18 21:32:11,331: Stop polling... 
+WARNING: 2022-02-18 21:32:11,331: Goodbye! 
